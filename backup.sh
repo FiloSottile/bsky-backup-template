@@ -2,7 +2,7 @@
 set -euo pipefail
 
 goat() {
-    go run github.com/bluesky-social/indigo/cmd/goat@latest "$@"
+    go run github.com/bluesky-social/goat@latest "$@"
 }
 
 ACCOUNT="${1#@}"
